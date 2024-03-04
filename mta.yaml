@@ -10,6 +10,7 @@ build-parameters:
     - builder: custom
       commands:
         - npx cds build --production
+        - npm ci
 modules:
   - name: test-btp-srv
     type: nodejs
