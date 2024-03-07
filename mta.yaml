@@ -71,6 +71,6 @@ build-parameters:
   - builder: custom
     commands:
     - npm i @sap/cds
-    - npm ci
+    #- npm ci
     - npm i @sap/xssec
     - npx cds build --production
