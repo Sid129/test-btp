@@ -16,7 +16,7 @@ modules:
     builder: npm
 - name: test-btp-app-content
   type: com.sap.application.content
-  path: .
+  path: '.'
   requires:
   - name: test-btp-repo-host
     parameters:
