@@ -70,8 +70,8 @@ build-parameters:
   before-all:
   - builder: custom
     commands:
-    - npm config set @sap:registry https://npm.sap.com
-    - npm i @sap/cds
+   # - npm config set @sap:registry https://npm.sap.com
+    - npm install -g @sap/cds
     #- npm ci
     - npm i @sap/xssec
     - npx cds build --production
