@@ -72,6 +72,6 @@ build-parameters:
     commands:
    # - npm config set @sap:registry https://npm.sap.com
     - npm install -g @sap/cds
-    #- npm ci
+    - npm add -g @sap/cds-dk
     - npm i @sap/xssec
     - npx cds build --production
