@@ -1,6 +1,6 @@
 # Getting Started
 
-Welcome to your new project. this test project was created for learning.
+Welcome to your new project. this test project was created for learning .
 
 It contains these folders and files, following our recommended project layout:
 
